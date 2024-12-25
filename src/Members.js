@@ -51,7 +51,6 @@ const Members = () => {
         <div className={'member-list'}>
             {filteredMembers.map((member, index) => (
                 <div key={member.id} className={'member-item'} onClick={() => handleItemClick(member.id)}>
-                    <img className={'image-item'} src={`${window.location.origin}/${member.image}`}/>
                     <h2>{member.name}</h2>
                 </div>
             ))}

@@ -14,7 +14,6 @@ const MemberDetail = () => {
 
     return (
         <div className="member-detail">
-            <img className={'image-item'} src={`${window.location.origin}/${member.image}`}/>
             <h2>{member.name}</h2>
             <p>Gender: {member.gender}</p>
             <p>Date of Birth: {member.dob}</p>
